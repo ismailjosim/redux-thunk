@@ -17,7 +17,7 @@ const Home = () => {
   return (
     <div className='max-w-7xl gap-14 mx-auto my-10'>
       <div className='mb-10 flex justify-end gap-5'>
-        <button>In Stock</button>
+        <button className='btn btn-primary btn-sm capitalize text-white'>In Stock</button>
         <button>AMD</button>
         <button>Intel</button>
       </div>
