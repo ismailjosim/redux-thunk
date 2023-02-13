@@ -1,6 +1,17 @@
+
+
 export const initialState = {
-  test: "test"
+  filters: {
+    brand: [],
+    stock: false,
+    keyword: ""
+  }
+
 };
+
+
+
+
 export const filterReducer = (state = initialState, action) => {
   return state
 }
