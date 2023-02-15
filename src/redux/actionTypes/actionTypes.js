@@ -5,7 +5,7 @@ export const LOAD_PRODUCT = "LOAD_PRODUCT";
 export const ADD_PRODUCT = "ADD_PRODUCT";
 export const REMOVE_PRODUCT = "REMOVE_PRODUCT";
 
-//* For filters
 
+// Action Type => For filters
 export const TOGGLE_BRAND = "TOGGLE_BRAND";
 export const TOGGLE_STOCK = "TOGGLE_STOCK";
